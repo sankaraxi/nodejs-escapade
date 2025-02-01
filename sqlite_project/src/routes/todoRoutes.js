@@ -4,7 +4,9 @@ import db from '../db.js';
 const router = express.Router();
 
 
-router.get('/', (req,res) => {});
+router.get('/', (req,res) => {
+    
+});
 
 router.post('/', (req,res) => {});
 
