@@ -19,15 +19,15 @@ async function main(){
         dob: '2004-07-19'
     }
 
-    // // const insertResult = await collection.insertOne(data);
-    // const insertResult = await collection.insertMany([data]);
-    // console.log('Inserted documents =>', insertResult);
+    // const insertResult = await collection.insertOne(data);
+    const insertResult = await collection.insertMany([data]);
+    console.log('Inserted documents =>', insertResult);
 
     // const findResult = await collection.find({}).toArray();
     // console.log('Found documents =>', findResult);
 
-    // const countResult = await collection.countDocuments({});
-    // console.log('Count of documents =>', countResult);
+    const countResult = await collection.countDocuments({});
+    console.log('Count of documents =>', countResult);
 
     // to find a particular document based on a condition
 
